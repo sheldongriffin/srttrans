@@ -1,0 +1,22 @@
+{
+  "name": "srttrans",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Repair subtitle encodings and write UTF-8 SRT files",
+  "type": "module",
+  "bin": {
+    "srttrans": "./srttrans.js"
+  },
+  "scripts": {
+    "start": "node srttrans.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "chardet": "^2.1.1",
+    "iconv-lite": "^0.7.0",
+    "opencc-js": "^1.0.5"
+  }
+}
